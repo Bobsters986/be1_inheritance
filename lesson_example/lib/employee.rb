@@ -1,9 +1,10 @@
 class Employee
-  attr_reader :name, :id
+  attr_reader :name, :id, :array
 
   def initialize(name, id)
     @name = name
     @id = id
+    @array = []
   end
 
   def total_compensation
